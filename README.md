@@ -19,4 +19,8 @@ Ce test confirme que `isAdult()` renvoie `true` lorsque l'âge est supérieur ou
 
 Ce test assure que `isAdult()` renvoie `false` lorsque l'âge est inférieur à 18 ans. Comme précédemment, avec un âge de 17 ans, le résultat attendu est `false`.
 
+<<<<<<< HEAD
 Ces tests garantissent le comportement correct des méthodes `getFullName()` et `isAdult()` dans différentes situations, contribuant ainsi à la robustesse de la classe `Person`.
+=======
+Ces tests garantissent le comportement correct des méthodes `getFullName()` et `isAdult()` dans différentes situations, contribuant ainsi à la robustesse de la classe `Person`.
+>>>>>>> 7aab781fb43234f4b4101cd92a605b4e1f5b1481
