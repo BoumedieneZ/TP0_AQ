@@ -115,6 +115,28 @@ Ce test vérifie que la méthode retourne `false` pour plusieurs nombres non pre
 Ce test vérifie que la méthode retourne `false` pour plusieurs nombres négatifs :
 - -1, -2, -3, -4, -5.
 
+# Exercice 05 : Explication des Tests pour le Calcul du Factoriel
+
+## Nombres Positifs
+
+### testFactorialWithPositiveNumbers
+
+Ce test vérifie que la méthode retourne les valeurs correctes pour les nombres positifs et zéro :
+- 0! = 1
+- 1! = 1
+- 2! = 2
+- 3! = 6
+- 4! = 24
+- 5! = 120
+- 6! = 720
+- 7! = 5040
+
+## Nombres Négatifs
+
+### testFactorialWithNegativeNumbers
+
+Ce test vérifie que la méthode lance une `IllegalArgumentException` pour les nombres négatifs.
+
 
 ---
 
