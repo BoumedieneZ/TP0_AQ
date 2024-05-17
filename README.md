@@ -69,6 +69,29 @@ Nous avons écrit une série de tests unitaires pour vérifier le bon fonctionne
 
 Tous les tests ont été exécutés avec succès, sans aucune erreur. Cela confirme que les méthodes de la classe `Stack` fonctionnent correctement et que le tableau interne s'agrandit comme attendu lorsque la capacité initiale est dépassée.
 
+# Exercice 03 : Explication des Tests pour la Suite de Fibonacci
+
+## Cas de Base
+
+### testFibonacciBaseCases
+
+Ce test vérifie que les valeurs de base de la suite de Fibonacci sont correctes :
+- F(0) doit être 0.
+- F(1) doit être 1.
+
+## Cas Généraux
+
+### testFibonacciGeneralCases
+
+Ce test vérifie que la méthode retourne les bonnes valeurs pour plusieurs termes de la suite de Fibonacci :
+- F(2), F(3), F(4), F(5), F(6), et F(7).
+
+## Cas d'Erreur
+
+### testFibonacciNegativeInput
+
+Ce test vérifie que la méthode lève une exception `IllegalArgumentException` avec le message "n must be positive" lorsqu'un argument négatif est passé à la méthode de calcul de Fibonacci.
+
 ---
 
 Merci d'avoir consulté ce projet. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter.
