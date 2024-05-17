@@ -92,6 +92,30 @@ Ce test vérifie que la méthode retourne les bonnes valeurs pour plusieurs term
 
 Ce test vérifie que la méthode lève une exception `IllegalArgumentException` avec le message "n must be positive" lorsqu'un argument négatif est passé à la méthode de calcul de Fibonacci.
 
+# Exercice 04 : Explication des Tests pour la Détection des Nombres Premiers
+
+## Nombres Premiers
+
+### testIsPrimeWithPrimes
+
+Ce test vérifie que la méthode retourne `true` pour plusieurs nombres premiers :
+- 2, 3, 5, 7, 11, 13, 17, 19, 23.
+
+## Nombres Non Premiers
+
+### testIsPrimeWithNonPrimes
+
+Ce test vérifie que la méthode retourne `false` pour plusieurs nombres non premiers :
+- 0, 1, 4, 6, 8, 9, 10, 12, 14.
+
+## Nombres Négatifs
+
+### testIsPrimeWithNegativeNumbers
+
+Ce test vérifie que la méthode retourne `false` pour plusieurs nombres négatifs :
+- -1, -2, -3, -4, -5.
+
+
 ---
 
 Merci d'avoir consulté ce projet. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter.
