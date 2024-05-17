@@ -138,6 +138,55 @@ Ce test vérifie que la méthode retourne les valeurs correctes pour les nombres
 Ce test vérifie que la méthode lance une `IllegalArgumentException` pour les nombres négatifs.
 
 
+# Exercice Bonus : Explication des Tests pour la Gestion d'un Compte Bancaire
+
+## Dépôt d'Argent
+
+### testDeposit
+
+Ce test vérifie que l'argent est correctement déposé sur le compte.
+
+### testDepositNegativeAmount
+
+Ce test vérifie que déposer un montant négatif lance une `IllegalArgumentException`.
+
+## Retrait d'Argent
+
+### testWithdraw
+
+Ce test vérifie que l'argent est correctement retiré du compte.
+
+### testWithdrawNegativeAmount
+
+Ce test vérifie que retirer un montant négatif lance une `IllegalArgumentException`.
+
+### testWithdrawInsufficientBalance
+
+Ce test vérifie que retirer un montant supérieur au solde lance une `IllegalStateException`.
+
+## Transfert d'Argent
+
+### testTransfer
+
+Ce test vérifie que l'argent est correctement transféré d'un compte à un autre.
+
+### testTransferToNullAccount
+
+Ce test vérifie que transférer de l'argent vers un compte nul lance une `NullPointerException`.
+
+## Ajout d'Intérêts
+
+### testAddInterest
+
+Ce test vérifie que les intérêts sont correctement ajoutés au solde du compte.
+
+## Consultation du Solde
+
+### testGetBalance
+
+Ce test vérifie que le solde du compte est correctement renvoyé.
+
+
 ---
 
 Merci d'avoir consulté ce projet. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter.
